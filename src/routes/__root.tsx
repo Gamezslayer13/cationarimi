@@ -84,6 +84,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Binaltın Yapı" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Binaltın Yapı — Ankara Çatı ve Demir İşleri" },
+      { name: "twitter:title", content: "Binaltın Yapı — Ankara Çatı ve Demir İşleri" },
+      { property: "og:description", content: "Ankara'nın güvenilir çatı ve demir işleri uzmanı. 15+ yıl deneyim, ücretsiz keşif." },
+      { name: "twitter:description", content: "Ankara'nın güvenilir çatı ve demir işleri uzmanı. 15+ yıl deneyim, ücretsiz keşif." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/df66247b-8155-42a1-b715-69bcb19c99aa/id-preview-c7072f79--44c8d58c-109e-4691-87ac-e606096d4ef2.lovable.app-1780730567040.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/df66247b-8155-42a1-b715-69bcb19c99aa/id-preview-c7072f79--44c8d58c-109e-4691-87ac-e606096d4ef2.lovable.app-1780730567040.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
